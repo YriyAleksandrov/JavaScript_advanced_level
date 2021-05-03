@@ -1,0 +1,123 @@
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+html,body,div,header {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline
+}
+
+header {
+    display: block
+}
+
+body {
+    line-height: 1
+}
+
+button {
+    font-family: inherit;
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0;
+    text-transform: none;
+    -webkit-appearance: button;
+    border-style: none;
+    padding: 0;
+    outline: 1px dotted #cecece
+}
+
+.container {
+    width: 960px;
+    margin: auto
+}
+
+.cart-button {
+    padding: 6px 12px;
+    border: none;
+    outline: none;
+    font-weight: 700;
+    color: #FFF;
+    cursor: pointer;
+    background: #2196F3;
+    -webkit-transition: all linear 0.2s;
+    transition: all linear 0.2s
+}
+
+.cart-button:hover {
+    background: #43a047;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    display: block;
+    width: 100%;
+    -webkit-box-shadow: #E0E0E0 0 0 10px;
+    box-shadow: #E0E0E0 0 0 10px;
+    background: #FAFAFA
+}
+
+header>.container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 10px
+}
+
+main.container {
+    margin-top: 60px
+}
+.goods-list {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    align-content: flex-start;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap
+}
+
+.goods-item {
+    display: block;
+    width: 220px;
+    margin: 10px;
+    padding: 10px 10px 15px;
+    border: #EEEEEE solid 1px;
+    border-radius: 3px;
+    -webkit-box-shadow: #F5F5F5 0 0 6px;
+    box-shadow: #F5F5F5 0 0 6px;
+    text-align: center
+}
+
+h3 {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 32px
+}
+
+p {
+    display: block;
+    width: 100%;
+    font-size: 23px
+}
+
+.goods-item p::before {
+    content: '$ ';
+    display: inline;
+    margin-right: .1rem
+}
