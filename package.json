@@ -1,0 +1,26 @@
+{
+  "name": "lesson_7",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "dependencies": {
+    "moment": "^2.29.1",
+    "node-static": "^0.7.11"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YriyAleksandrov/JavaScript_advanced_level.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/YriyAleksandrov/JavaScript_advanced_level/issues"
+  },
+  "homepage": "https://github.com/YriyAleksandrov/JavaScript_advanced_level#readme"
+}
